@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Name — Your Role</title>
+<meta name="description" content="Your Name — Your Role. One line describing what you build and who it's for.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav id="siteNav">
+  <span class="logo">YourName.</span>
+  <div class="nav-links">
+    <a class="link on" href="#hero">Home</a>
+    <a class="link" href="#about">About</a>
+    <a class="link" href="#skills">Skills</a>
+    <a class="link" href="#projects">Projects</a>
+    <a class="link" href="#experience">Experience</a>
+    <a class="link link-contact" href="#contact">Contact</a>
+  </div>
+  <a class="btn btn-primary btn-sm" href="#contact">Get in touch</a>
+  <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- ================= HERO ================= -->
+<header class="hero" id="hero">
+  <video class="hero-bg" autoplay muted loop playsinline preload="auto">
+    <source src="assets/hero.mp4" type="video/mp4">
+  </video>
+  <div class="hero-shade"></div>
+  <div class="wrap hero-content">
+    <span class="eyebrow rv"><i></i> Your Role / Title</span>
+    <h1 class="rv d1">Your Headline<br>Goes Here</h1>
+    <p class="sub rv d2">I'm [Your Name] — a short paragraph about what you
+      build, who it's for, and what makes your approach different. Keep it
+      to two or three sentences.</p>
+    <div class="cta rv d3">
+      <a class="btn btn-primary btn-invert" href="#projects">See my work</a>
+      <a class="btn btn-ghost btn-invert" href="assets/Resume.pdf" download>Download resume</a>
+    </div>
+  </div>
+</header>
+
+<!-- ================= ABOUT ================= -->
+<section id="about">
+  <div class="wrap">
+    <div class="center">
+      <span class="eyebrow rv"><i></i> About</span>
+      <h2 class="rv d1">Your value proposition<br>goes here</h2>
+    </div>
+    <div class="about-grid">
+      <div class="card tint-cream rv">
+        <p class="lede">A longer paragraph about how you work and what you
+          care about. Talk about your approach, the kinds of problems you
+          like solving, and what sets your work apart. Two to four
+          sentences is usually enough.</p>
+      </div>
+      <div class="stats">
+        <div class="stat rv d1"><span>Core stack</span><b>Tool · Tool · Tool</b></div>
+        <div class="stat rv d2"><span>Also known for</span><b>Tool · Tool · Tool</b></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SKILLS ================= -->
+<section id="skills">
+  <div class="wrap">
+    <div class="center">
+      <span class="eyebrow rv"><i></i> Skills</span>
+      <h2 class="rv d1">A short, punchy<br>skills headline</h2>
+    </div>
+
+    <div class="skills-chips rv d2">
+      <span class="chip">React</span><span class="chip">TypeScript</span>
+      <span class="chip">Node.js</span><span class="chip">Python</span>
+      <span class="chip">FastAPI</span><span class="chip">PyTorch</span>
+      <span class="chip">TensorFlow</span><span class="chip">scikit-learn</span>
+      <span class="chip">AWS</span><span class="chip">Docker</span>
+      <span class="chip">PostgreSQL</span><span class="chip">Vector DBs</span>
+      <span class="chip">Claude API</span><span class="chip">MCP</span>
+      <span class="chip">RAG</span>
+    </div>
+
+    <div class="skills-cards">
+      <div class="skill-card rv">
+        <div class="icon">◐</div>
+        <h3>Frontend</h3>
+        <ul>
+          <li><b>React</b> — hooks, state, routing</li>
+          <li><b>TypeScript</b> — typed, maintainable UIs</li>
+          <li><b>Pixi.js</b> — WebGL, animation</li>
+          <li><b>Tailwind</b> — fast, consistent styling</li>
+        </ul>
+      </div>
+      <div class="skill-card rv d1">
+        <div class="icon">◑</div>
+        <h3>Backend &amp; Cloud</h3>
+        <ul>
+          <li><b>Node.js</b> — Express APIs</li>
+          <li><b>Python</b> — FastAPI services</li>
+          <li><b>AWS</b> — EC2, S3, Lambda</li>
+          <li><b>Databases</b> — PostgreSQL, MongoDB</li>
+        </ul>
+      </div>
+      <div class="skill-card rv d2">
+        <div class="icon">◒</div>
+        <h3>Machine Learning</h3>
+        <ul>
+          <li><b>PyTorch / TensorFlow</b> — training, fine-tuning</li>
+          <li><b>scikit-learn</b> — classical ML pipelines</li>
+          <li><b>Model serving</b> — versioning, monitoring</li>
+          <li><b>MLOps</b> — Docker, CI/CD for models</li>
+        </ul>
+      </div>
+      <div class="skill-card rv d3">
+        <div class="icon">◓</div>
+        <h3>AI Engineering</h3>
+        <ul>
+          <li><b>Claude API</b> — tool use, agents</li>
+          <li><b>MCP</b> — connecting AI to real systems</li>
+          <li><b>RAG</b> — retrieval pipelines, vector search</li>
+          <li><b>Prompting</b> — structured, tested prompts</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PROJECTS ================= -->
+<section id="projects">
+  <div class="wrap">
+    <div class="center">
+      <span class="eyebrow rv"><i></i> Projects</span>
+      <h2 class="rv d1">A few things you've built</h2>
+      <p class="muted rv d2" style="max-width:520px;margin:16px auto 0">
+        Scroll through — the frame on the left follows along like a demo reel.</p>
+    </div>
+
+    <div class="projects-flow">
+      <div class="proj-frames rv">
+        <div class="proj-video">
+          <span class="proj-count"><span id="projStepNum">01</span> / 03</span>
+          <div class="frame show" data-f="0">
+            <span class="tag">Project one demo</span>
+            <div class="mock">
+              <div class="bar w40"></div>
+              <div class="block">Short demo caption</div>
+              <div class="bar w80"></div><div class="bar w60"></div>
+            </div>
+          </div>
+          <div class="frame" data-f="1">
+            <span class="tag">Project two demo</span>
+            <div class="mock">
+              <div class="bar w60"></div>
+              <div class="block">Short demo caption</div>
+              <div class="bar w40"></div><div class="bar w80"></div>
+            </div>
+          </div>
+          <div class="frame" data-f="2">
+            <span class="tag">Project three demo</span>
+            <div class="mock">
+              <div class="bar w40"></div>
+              <div class="block">Short demo caption</div>
+              <div class="bar w60"></div><div class="bar w80"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="proj-steps">
+        <div class="proj-step rv" data-frame="0">
+          <span class="step-num">01</span>
+          <h3>Project One Title</h3>
+          <p>One or two sentences describing what this project does, who
+             it's for, and the problem it solves.</p>
+          <div class="pills"><span class="pill">Tech</span><span class="pill">Tech</span><span class="pill">Tech</span></div>
+        </div>
+        <div class="proj-step rv" data-frame="1">
+          <span class="step-num">02</span>
+          <h3>Project Two Title</h3>
+          <p>One or two sentences describing what this project does, who
+             it's for, and the problem it solves.</p>
+          <div class="pills"><span class="pill">Tech</span><span class="pill">Tech</span><span class="pill">Tech</span></div>
+        </div>
+        <div class="proj-step rv" data-frame="2">
+          <span class="step-num">03</span>
+          <h3>Project Three Title</h3>
+          <p>One or two sentences describing what this project does, who
+             it's for, and the problem it solves.</p>
+          <div class="pills"><span class="pill">Tech</span><span class="pill">Tech</span><span class="pill">Tech</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= EXPERIENCE ================= -->
+<section id="experience">
+  <div class="wrap">
+    <div class="center">
+      <span class="eyebrow rv"><i></i> Experience</span>
+      <h2 class="rv d1">Where you've put this to work</h2>
+      <p class="muted rv d2" style="max-width:520px;margin:16px auto 0">
+        Roles, dates, and highlights from your résumé.</p>
+    </div>
+
+    <div class="timeline">
+      <div class="tl-item rv">
+        <div class="tl-dot"></div>
+        <div class="tl-card">
+          <div class="tl-head">
+            <h3>Job Title <span class="muted">— Company Name, Location</span></h3>
+            <span class="pill pill-date">Month Year — Present</span>
+          </div>
+          <ul>
+            <li>A highlight describing an outcome, not just a task.</li>
+            <li>Another highlight, ideally with a measurable result.</li>
+            <li>A third highlight if you have one worth including.</li>
+          </ul>
+          <div class="pills"><span class="pill">Tech</span><span class="pill">Tech</span><span class="pill">Tech</span></div>
+        </div>
+      </div>
+      <div class="tl-item rv d1">
+        <div class="tl-dot"></div>
+        <div class="tl-card">
+          <div class="tl-head">
+            <h3>Job Title <span class="muted">— Previous Company</span></h3>
+            <span class="pill pill-date">Month Year — Month Year</span>
+          </div>
+          <ul>
+            <li>A highlight describing an outcome, not just a task.</li>
+            <li>Another highlight, ideally with a measurable result.</li>
+          </ul>
+          <div class="pills"><span class="pill">Tech</span><span class="pill">Tech</span><span class="pill">Tech</span></div>
+        </div>
+      </div>
+      <div class="tl-item rv d2">
+        <div class="tl-dot"></div>
+        <div class="tl-card">
+          <div class="tl-head">
+            <h3>Education <span class="muted">— University Name</span></h3>
+            <span class="pill pill-date">Year</span>
+          </div>
+          <ul>
+            <li>Degree, field of study — City, State/Country.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section id="contact">
+  <div class="wrap">
+    <div class="contact-hero rv">
+      <h2>Let's build something<br>worth shipping</h2>
+      <p>Whether it's a role, a contract, or just an idea you want to talk
+         through — your inbox is open.</p>
+      <div class="cta">
+        <a class="btn btn-primary btn-invert" href="mailto:you@example.com">Email me</a>
+        <a class="btn btn-ghost btn-invert" href="https://www.linkedin.com/in/your-handle/" target="_blank" rel="noopener">Connect on LinkedIn</a>
+      </div>
+    </div>
+    <div class="contact-links">
+      <a class="rv" href="mailto:you@example.com"><span class="lab">Email</span><div class="val">you@example.com</div></a>
+      <a class="rv d1" href="tel:+15555555555"><span class="lab">Phone</span><div class="val">+1 (555) 555-5555</div></a>
+      <a class="rv d2" href="https://www.linkedin.com/in/your-handle/" target="_blank" rel="noopener"><span class="lab">LinkedIn</span><div class="val">/in/your-handle</div></a>
+      <a class="rv d3" href="https://github.com/your-username" target="_blank" rel="noopener"><span class="lab">GitHub</span><div class="val">@your-username</div></a>
+    </div>
+  </div>
+</section>
+
+<footer class="wrap">
+  <span class="logo">YourName.</span>
+  <span>© 2026 · Built with care (and a lot of scrolling)</span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
