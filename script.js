@@ -25,7 +25,7 @@ const stepIO = new IntersectionObserver(es=>{
 steps.forEach(s=>stepIO.observe(s));
 
 // nav active state
-const sections = ['hero','about','skills','projects','experience','contact'].map(id=>document.getElementById(id));
+const sections = ['hero','about','skills','projects','education','contact'].map(id=>document.getElementById(id));
 const navLinks = document.querySelectorAll('#siteNav a.link');
 const navIO = new IntersectionObserver(es=>{
   es.forEach(e=>{
